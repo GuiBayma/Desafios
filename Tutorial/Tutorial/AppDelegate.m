@@ -14,14 +14,18 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-    self.window.rootViewController = [[PageViewController alloc] init];
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     
     NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
     BOOL primeiroUso = [defaults boolForKey:@"primeiroUso"];
+//    BOOL primeiroUso = NO;
     if (primeiroUso) {
-        
+        UIStoryboard *story = [UIStoryboard storyboardWithName:@"Storyboard" bundle:nil];
+        self.window.rootViewController = (UITabBarController *)[story instantiateViewControllerWithIdentifier:@"TabBarController"];
+    }
+    else {
+        self.window.rootViewController = [[PageViewController alloc] init];
     }
     return YES;
 }

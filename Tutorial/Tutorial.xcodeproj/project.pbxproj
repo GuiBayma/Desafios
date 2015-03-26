@@ -7,8 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		17CF69A11AC2DE310020338E /* PageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 17CF699E1AC2DE310020338E /* PageViewController.m */; };
-		17CF69A21AC2DE310020338E /* PageContentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 17CF69A01AC2DE310020338E /* PageContentViewController.m */; };
+		17A2C3051AC2F644005C7CE2 /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = 17A2C3041AC2F644005C7CE2 /* background.png */; };
+		17A2C30A1AC2F666005C7CE2 /* PageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 17A2C3071AC2F666005C7CE2 /* PageViewController.m */; };
+		17A2C30B1AC2F666005C7CE2 /* PageContentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 17A2C3091AC2F666005C7CE2 /* PageContentViewController.m */; };
+		17A2C30D1AC2FFF9005C7CE2 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17A2C30C1AC2FFF9005C7CE2 /* Storyboard.storyboard */; };
+		17A2C30F1AC4419C005C7CE2 /* cancel-25.png in Resources */ = {isa = PBXBuildFile; fileRef = 17A2C30E1AC4419C005C7CE2 /* cancel-25.png */; };
 		17DDAF7F1AC1991400979E30 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 17DDAF7E1AC1991400979E30 /* main.m */; };
 		17DDAF821AC1991400979E30 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 17DDAF811AC1991400979E30 /* AppDelegate.m */; };
 		17DDAF8A1AC1991400979E30 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 17DDAF891AC1991400979E30 /* Images.xcassets */; };
@@ -29,10 +32,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		17CF699D1AC2DE310020338E /* PageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PageViewController.h; sourceTree = "<group>"; };
-		17CF699E1AC2DE310020338E /* PageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PageViewController.m; sourceTree = "<group>"; };
-		17CF699F1AC2DE310020338E /* PageContentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PageContentViewController.h; sourceTree = "<group>"; };
-		17CF69A01AC2DE310020338E /* PageContentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PageContentViewController.m; sourceTree = "<group>"; };
+		17A2C3041AC2F644005C7CE2 /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
+		17A2C3061AC2F666005C7CE2 /* PageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PageViewController.h; sourceTree = "<group>"; };
+		17A2C3071AC2F666005C7CE2 /* PageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PageViewController.m; sourceTree = "<group>"; };
+		17A2C3081AC2F666005C7CE2 /* PageContentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PageContentViewController.h; sourceTree = "<group>"; };
+		17A2C3091AC2F666005C7CE2 /* PageContentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PageContentViewController.m; sourceTree = "<group>"; };
+		17A2C30C1AC2FFF9005C7CE2 /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
+		17A2C30E1AC4419C005C7CE2 /* cancel-25.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cancel-25.png"; sourceTree = "<group>"; };
 		17DDAF791AC1991400979E30 /* Tutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tutorial.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		17DDAF7D1AC1991400979E30 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		17DDAF7E1AC1991400979E30 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -86,15 +92,18 @@
 		17DDAF7B1AC1991400979E30 /* Tutorial */ = {
 			isa = PBXGroup;
 			children = (
+				17A2C30E1AC4419C005C7CE2 /* cancel-25.png */,
+				17A2C3041AC2F644005C7CE2 /* background.png */,
 				17DDAFAE1AC1B3C100979E30 /* img1.png */,
 				17DDAFAF1AC1B3C100979E30 /* img2.png */,
 				17DDAF801AC1991400979E30 /* AppDelegate.h */,
 				17DDAF811AC1991400979E30 /* AppDelegate.m */,
-				17CF699D1AC2DE310020338E /* PageViewController.h */,
-				17CF699E1AC2DE310020338E /* PageViewController.m */,
-				17CF699F1AC2DE310020338E /* PageContentViewController.h */,
-				17CF69A01AC2DE310020338E /* PageContentViewController.m */,
+				17A2C3061AC2F666005C7CE2 /* PageViewController.h */,
+				17A2C3071AC2F666005C7CE2 /* PageViewController.m */,
+				17A2C3081AC2F666005C7CE2 /* PageContentViewController.h */,
+				17A2C3091AC2F666005C7CE2 /* PageContentViewController.m */,
 				17DDAF891AC1991400979E30 /* Images.xcassets */,
+				17A2C30C1AC2FFF9005C7CE2 /* Storyboard.storyboard */,
 				17DDAF8B1AC1991400979E30 /* LaunchScreen.xib */,
 				17DDAF7C1AC1991400979E30 /* Supporting Files */,
 			);
@@ -208,9 +217,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				17DDAFB01AC1B3C100979E30 /* img1.png in Resources */,
+				17A2C3051AC2F644005C7CE2 /* background.png in Resources */,
 				17DDAFB11AC1B3C100979E30 /* img2.png in Resources */,
+				17A2C30F1AC4419C005C7CE2 /* cancel-25.png in Resources */,
 				17DDAF8D1AC1991400979E30 /* LaunchScreen.xib in Resources */,
 				17DDAF8A1AC1991400979E30 /* Images.xcassets in Resources */,
+				17A2C30D1AC2FFF9005C7CE2 /* Storyboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -229,9 +241,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				17DDAF821AC1991400979E30 /* AppDelegate.m in Sources */,
-				17CF69A21AC2DE310020338E /* PageContentViewController.m in Sources */,
+				17A2C30B1AC2F666005C7CE2 /* PageContentViewController.m in Sources */,
 				17DDAF7F1AC1991400979E30 /* main.m in Sources */,
-				17CF69A11AC2DE310020338E /* PageViewController.m in Sources */,
+				17A2C30A1AC2F666005C7CE2 /* PageViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
